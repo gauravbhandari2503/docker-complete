@@ -1,0 +1,14 @@
+When do we need Docker volumes ?
+    - When we want to persist data
+    - Data is gone when the container is removed or stopped
+    - Virtual file system does not have physical file system.
+    - Volume works when we plug physical disks into the container.
+    - File system in host system is plugged into the container.
+
+3 Volume Types 
+    1) Host Volume 
+    2) Anonymous Volume - for each container a folder is generated that gets mounted.
+    3) Named Volume - a named volume is created and mounted.
+
+Most used is Named Volume.
+
